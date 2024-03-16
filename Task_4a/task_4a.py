@@ -66,7 +66,7 @@ def task_4a_return():
     locations = ["A", "B", "C", "D", "E"]
     events_identified = []
 
-    model = load_model("image_50/bestmodel2.h5")
+    model = load_model("bestmodel_task2c.h5")
 
     font = cv.FONT_HERSHEY_DUPLEX
     font_scale = 0.5
